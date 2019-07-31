@@ -1,0 +1,11 @@
+
+
+// 定义一个消息
+message person{
+    // 消息Id
+    required string id = 1;
+
+    optional int32 age = 2;
+
+    optional int32 sex = 3;
+}
